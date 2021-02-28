@@ -8,6 +8,9 @@ from task01.calculator.calc import check_power_of_2
     [
         (65536, True),
         (12, False),
+        (0, False),
+        (1, True),
+        (-22, False),
     ],
 )
 def test_power_of_2(value: int, expected_result: bool):
