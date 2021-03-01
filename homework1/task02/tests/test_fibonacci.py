@@ -38,7 +38,7 @@ data = [
         ([], False),
     ],
 )
-def test_power_of_2(value: Sequence[int], expected_result: bool):
+def test_fibonacci(value: Sequence[int], expected_result: bool):
     actual_result = check_fibonacci(value)
 
     assert actual_result == expected_result
