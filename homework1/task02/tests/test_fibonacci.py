@@ -29,6 +29,7 @@ data = [
 ]
 
 
+# test for fibonacci/fib.py
 @pytest.mark.parametrize(
     ["value", "expected_result"],
     [
@@ -36,6 +37,7 @@ data = [
         (data, True),
         ([0, 1, 1, 2, 4], False),
         ([], False),
+        ([1, 1, 2], False),
     ],
 )
 def test_fibonacci(value: Sequence[int], expected_result: bool):
