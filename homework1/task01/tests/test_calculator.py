@@ -3,6 +3,7 @@ import pytest
 from task01.calculator.calc import check_power_of_2
 
 
+# test for calculator/calc.py
 @pytest.mark.parametrize(
     ["value", "expected_result"],
     [
@@ -11,6 +12,7 @@ from task01.calculator.calc import check_power_of_2
         (0, False),
         (1, True),
         (-22, False),
+        (16, True),
     ],
 )
 def test_power_of_2(value: int, expected_result: bool):

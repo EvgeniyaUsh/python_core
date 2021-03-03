@@ -1,4 +1,5 @@
 def check_power_of_2(a: int) -> bool:
-    if a == 0:
-        return bool(a & (a - 1))
-    return not (bool(a & (a - 1)))
+    """
+    a function that checks if a number is a power of two
+    """
+    return bool(a and (a & (a - 1)) == 0)
