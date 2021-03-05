@@ -5,6 +5,7 @@ import pytest
 from task05.subarray.sumsubarray import find_maximal_subarray_sum
 
 
+# test for subarray/sumsubarray.py
 @pytest.mark.parametrize(
     ["value", "k", "expected_result"],
     [

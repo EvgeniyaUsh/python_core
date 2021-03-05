@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72994577-c4cb-41ff-a79b-432887f4aa98" name="Default Changelist" comment="changed task02 and add comments">
+    <list default="true" id="72994577-c4cb-41ff-a79b-432887f4aa98" name="Default Changelist" comment="changed task04 and add comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taks04/sum_of_four/walnut.py" beforeDir="false" afterPath="$PROJECT_DIR$/taks04/sum_of_four/walnut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task03/findminmax/fmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/task03/findminmax/fmm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task03/tests/test_findminmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/task03/tests/test_findminmax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task05/subarray/sumsubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/task05/subarray/sumsubarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task05/tests/test_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/task05/tests/test_subarray.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <recent name="C:\Users\ganha\PycharmProjects\epam\homework1\task03\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_sum_of_four.test_sum_of_four">
+  <component name="RunManager" selected="Python tests.pytest for test_findminmax.test_maximum_and_minimum">
     <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,22 +99,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_calculator.test_power_of_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="homework1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task01/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.test_power_of_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_fibonacci.test_fibonacci" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="homework1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +112,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_fibonacci.test_fibonacci&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_findminmax.test_maximum_and_minimum" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task03/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_findminmax.test_maximum_and_minimum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_findminmax.test_maximum_and_minimum" />
         <item itemvalue="Python tests.pytest for test_sum_of_four.test_sum_of_four" />
         <item itemvalue="Python.walnut" />
         <item itemvalue="Python tests.pytest for test_fibonacci.test_fibonacci" />
         <item itemvalue="Python.fib" />
-        <item itemvalue="Python tests.pytest for test_calculator.test_power_of_2" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614796318856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed task04 and add comments">
+      <created>1614942307907</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614942307907</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +237,8 @@
     <MESSAGE value="add task04" />
     <MESSAGE value="changed task01 and add comments" />
     <MESSAGE value="changed task02 and add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed task02 and add comments" />
+    <MESSAGE value="changed task04 and add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed task04 and add comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1614598428578">
@@ -246,22 +257,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614796557460" />
-    <state width="1515" height="16" key="GridCell.Tab.0.bottom" timestamp="1614942096488">
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom" timestamp="1614942256135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="16" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614942096488" />
-    <state width="1515" height="16" key="GridCell.Tab.0.center" timestamp="1614942096488">
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614942256135" />
+    <state width="1515" height="187" key="GridCell.Tab.0.center" timestamp="1614942256134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="16" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614942096488" />
-    <state width="1515" height="16" key="GridCell.Tab.0.left" timestamp="1614942096487">
+    <state width="1515" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614942256134" />
+    <state width="1515" height="187" key="GridCell.Tab.0.left" timestamp="1614942256134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="16" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614942096487" />
-    <state width="1515" height="16" key="GridCell.Tab.0.right" timestamp="1614942096488">
+    <state width="1515" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614942256134" />
+    <state width="1515" height="187" key="GridCell.Tab.0.right" timestamp="1614942256135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="16" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614942096488" />
+    <state width="1515" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614942256135" />
     <state width="1515" height="274" key="GridCell.Tab.1.bottom" timestamp="1614796558866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,10 +289,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="274" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614796558866" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614796325525">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614942313046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614796325525" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614942313046" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614794784964">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
