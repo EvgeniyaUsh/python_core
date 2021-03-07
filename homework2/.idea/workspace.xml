@@ -19,15 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64d497c-183b-4714-9a41-657123d7c9ba" name="Default Changelist" comment="add task2 from hw2">
-      <change afterPath="$PROJECT_DIR$/task3/combinations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/combinations/combo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/tests/test_combo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/decorator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/decorator/decor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/tests/test_decor.py" afterDir="false" />
+    <list default="true" id="d64d497c-183b-4714-9a41-657123d7c9ba" name="Default Changelist" comment="add 03/04 tasks">
+      <change afterPath="$PROJECT_DIR$/task5/range/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task5/range/rangefunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task5/tests/test_rangefunc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/work_with_text/data.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +48,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/task1/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task5/range" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ganha\PycharmProjects\epam\homework2\range\task5" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ganha\PycharmProjects\epam\homework2\task5\range" />
       <recent name="C:\Users\ganha\PycharmProjects\epam\homework2\task1\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_decor.py">
-    <configuration name="combo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_rangefunc.test_range">
+    <configuration name="rangefunc (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task3/combinations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task5/range" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3/combinations/combo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task5/range/rangefunc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rangefunc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,33 +89,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task4/decorator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task4/decorator/decor.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ganha\PycharmProjects\epam\homework2\range\task5\rangefunc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_combo.test_combinations" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="homework2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task3/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_combo.test_combinations&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_decor.test_combinations" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -131,6 +115,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_decor.test_combinations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_rangefunc.test_range" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task5/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_rangefunc.test_range&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_rangefunc.test_range" />
+        <item itemvalue="Python.rangefunc (1)" />
+        <item itemvalue="Python.rangefunc" />
         <item itemvalue="Python tests.pytest in test_decor.py" />
         <item itemvalue="Python tests.pytest for test_decor.test_combinations" />
-        <item itemvalue="Python tests.pytest for test_combo.test_combinations" />
-        <item itemvalue="Python.combo" />
-        <item itemvalue="Python.decor" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615039970558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add 03/04 tasks">
+      <created>1615147003750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615147003750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +216,8 @@
     <MESSAGE value="Revert &quot;Delete homework2/task1/work_with_text directory&quot;&#10;&#10;This reverts commit 92a3c698" />
     <MESSAGE value="add task1 from hw2" />
     <MESSAGE value="add task2 from hw2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task2 from hw2" />
+    <MESSAGE value="add 03/04 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 03/04 tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="369" y="0" key="CommitChangelistDialog2" timestamp="1614943439746">
@@ -224,46 +232,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614948725451" />
-    <state width="1515" height="203" key="GridCell.Tab.0.bottom" timestamp="1615146911397">
+    <state width="1515" height="267" key="GridCell.Tab.0.bottom" timestamp="1615158310056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615146911397" />
-    <state width="1515" height="203" key="GridCell.Tab.0.center" timestamp="1615146911397">
+    <state width="1515" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615158310056" />
+    <state width="1515" height="267" key="GridCell.Tab.0.center" timestamp="1615158310055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615146911397" />
-    <state width="1515" height="203" key="GridCell.Tab.0.left" timestamp="1615146911397">
+    <state width="1515" height="267" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615158310055" />
+    <state width="1515" height="267" key="GridCell.Tab.0.left" timestamp="1615158310055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615146911397" />
-    <state width="1515" height="203" key="GridCell.Tab.0.right" timestamp="1615146911397">
+    <state width="1515" height="267" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615158310055" />
+    <state width="1515" height="267" key="GridCell.Tab.0.right" timestamp="1615158310056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615146911397" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1615046977088">
+    <state width="1515" height="267" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615158310056" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1615158288352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615046977088" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1615046977088">
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615158288352" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1615158288352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1615046977088" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1615046977088">
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1615158288352" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1615158288352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1615046977088" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1615046977088">
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1615158288352" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1615158288352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1615046977088" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1615158288352" />
     <state x="531" y="115" key="RollbackChangesDialog" timestamp="1614943178215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614943178215" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615039976986">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615147022359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615039976986" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615147022359" />
     <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1614949020215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
