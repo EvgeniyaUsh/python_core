@@ -13,6 +13,6 @@ from task04.Armstrong.Armstrong_numbers import is_armstrong
         (0, True),
     ],
 )
-def test_check_is_a_number_is_an_armstrong_number(value, expected_result):
+def test_check_if_a_number_is_an_armstrong_number(value, expected_result):
     actual_result = is_armstrong(value)
     assert actual_result == expected_result
