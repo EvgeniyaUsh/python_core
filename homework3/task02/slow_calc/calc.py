@@ -3,6 +3,7 @@ import hashlib
 import random
 import struct
 import time
+import timeit
 
 
 def slow_calculate(value):
