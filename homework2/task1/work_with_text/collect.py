@@ -11,7 +11,7 @@ def get_longest_diverse_words(file_path: str) -> List[str]:
     mass = []
     with open(file_path, "rb") as f:
         data = f.read().decode("unicode-escape")
-        data1 = re.findall(r"[\w']+|[set(string.punctuation)]", data)
+        data1 = re.findall(r"[\w']+|[!#$%&'()*+,-./:;<=>?@[]^_`{|}~«»" "]", data)
         c = 1
         for i in data1:
             if len(set(i)) >= len(set(data1[c])):
