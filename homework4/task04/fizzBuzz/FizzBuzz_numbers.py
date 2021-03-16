@@ -3,7 +3,7 @@ from typing import List
 
 def fizzbuzz(n: int) -> List[str]:
     """
-    a function that takes an N number as input and returns N FizzBuzz numbers.
+    a function that takes an N number as input and returns N FizzBuzzaaa numbers.
     :param n: list of numbers
     :return: 'fizz' if the number is divisible by three,
     'buzz' if the number is divisible by five,
