@@ -9,7 +9,7 @@ def combinations_(*args: List[Any]) -> List[List]:
     the second from the second and so one.
     """
     combo = []
-    k = list(product(*args))
-    for i in k:
+    combo_list = list(product(*args))
+    for i in combo_list:
         combo.append(list(i))
     return combo

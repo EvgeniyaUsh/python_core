@@ -1,6 +1,6 @@
 import pytest
 
-from task02.slow_calc.calc import slow_calculate, sum_of_slow_calculations
+from homework3.task02.slow_calc.calc import slow_calculate, sum_of_slow_calculations
 
 
 # test for slow_calc/calc.py for funk slow_calculate()

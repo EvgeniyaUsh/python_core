@@ -1,7 +1,6 @@
 from typing import List
 
 import pytest
-
 from taks04.sum_of_four.walnut import check_sum_of_four
 
 

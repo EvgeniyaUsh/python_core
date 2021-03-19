@@ -1,6 +1,6 @@
 import pytest
 
-from task03.helper_filter.help_filter import Filter, make_filter
+from homework3.task03.helper_filter.help_filter import Filter, make_filter
 
 sample_data = [
     {
@@ -32,7 +32,7 @@ even_nums = [
     ],
 )
 def test_help_filter_that_generates_data_filtering_object_from_a_list_of_keyword_parameters_1(
-        value, expected_result
+    value, expected_result
 ):
     actual_result = make_filter(**value).apply(sample_data)
     assert actual_result == expected_result
@@ -45,7 +45,7 @@ def test_help_filter_that_generates_data_filtering_object_from_a_list_of_keyword
     ],
 )
 def test_help_filter_that_generates_data_filtering_object_from_a_list_of_keyword_parameters_2(
-        value, expected_result
+    value, expected_result
 ):
     actual_result = value.apply(range(10))
     assert actual_result == expected_result

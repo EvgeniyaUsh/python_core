@@ -1,6 +1,6 @@
 import io
 
-from task01.decorator.parametrized_decorator import cache
+from homework3.task01.decorator.parametrized_decorator import cache
 
 
 @cache(times=2)

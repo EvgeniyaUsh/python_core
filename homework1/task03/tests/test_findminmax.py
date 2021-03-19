@@ -1,7 +1,6 @@
 from typing import Tuple
 
 import pytest
-
 from task03.findminmax.fmm import find_maximum_and_minimum
 
 file1 = "some_file1.txt"

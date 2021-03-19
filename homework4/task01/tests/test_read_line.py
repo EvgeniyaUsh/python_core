@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from task01.read_files.read_file import read_magic_number
+from homework4.task01.read_files.read_file import read_magic_number
 
 
 # tests for read_files/read_file.py for funk read_magic_number()

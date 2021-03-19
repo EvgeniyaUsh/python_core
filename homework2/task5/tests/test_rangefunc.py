@@ -1,27 +1,24 @@
 import string
-from typing import Any
+from typing import Any, List
 
 import pytest
 
-from task5.range.rangefunc import custom_range
+from homework2.task5.range.rangefunc import custom_range
 
 
 # test for range/rangefunc.py for funk custom_range()
 @pytest.mark.parametrize(
-    ["line", "first", "last", "count", "expected_result"],
+    ["line", "args", "expected_result"],
     [
-        (string.ascii_lowercase, "p", "g", -2, ["p", "n", "l", "j", "h"]),
-        (string.ascii_lowercase, "g", None, 1, ["a", "b", "c", "d", "e", "f"]),
+        (string.ascii_lowercase, "g", ["a", "b", "c", "d", "e", "f"]),
         (
             string.ascii_lowercase,
-            "g",
-            "p",
-            1,
+            ["g", "p"],
             ["g", "h", "i", "j", "k", "l", "m", "n", "o"],
         ),
+        (string.ascii_lowercase, ["p", "g", -2], ["p", "n", "l", "j", "h"]),
     ],
 )
-def test_range(line: Any, first: str, last: str, count: int, expected_result: list):
-    actual_result = custom_range(line, first, last, count)
-
+def test_range(line: Any, args, expected_result: List):
+    actual_result = custom_range(line, *args)
     assert actual_result == expected_result

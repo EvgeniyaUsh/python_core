@@ -1,6 +1,6 @@
 import pytest
 
-from task04.Armstrong.Armstrong_numbers import is_armstrong
+from homework3.task04.Armstrong.Armstrong_numbers import is_armstrong
 
 
 # test for Armstrong/Armstrong_numbers.py for funk is_armstrong()

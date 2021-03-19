@@ -2,7 +2,7 @@ from typing import List, Tuple
 
 import pytest
 
-from task2.findelements.majorminor import major_and_minor_elem
+from homework2.task2.findelements.majorminor import major_and_minor_elem
 
 
 # test for findelements/majorminor.py for funk major_and_minor_elem()

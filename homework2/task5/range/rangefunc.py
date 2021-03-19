@@ -1,13 +1,19 @@
-from typing import Any
+from typing import Any, List
 
 
-def custom_range(line: Any, first: str, last: str = None, count: int = 1) -> list:
+def custom_range(line: Any, *args: Any) -> List:
     """
     a function that takes any iteration of unique values
     and then it behaves like a range function
     """
-    if last:
-        lis = list(line[ord(first) - 97 : ord(last) - 97 : count])
-    else:
-        lis = list(line[ord("a") - 97 : ord(first) - 97 : count])
-    return lis
+    first, last, count = 0, len(line), 1
+    if len(args) == 1:
+        last = line.index(args[0])
+    elif len(args) == 2:
+        first = line.index(args[0])
+        last = line.index(args[1])
+    elif len(args) == 3:
+        first = line.index(args[0])
+        last = line.index(args[1])
+        count = args[2]
+    return list(line[first:last:count])

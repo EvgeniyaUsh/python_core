@@ -1,4 +1,4 @@
-from typing import Callable, OrderedDict
+from typing import Callable
 
 
 def cache(func: Callable) -> Callable:
@@ -7,14 +7,14 @@ def cache(func: Callable) -> Callable:
     then it returns a function like this.
     every function call is cached.
     """
-    d = OrderedDict()  # dictionary for saving cache
+    cached = dict()  # dictionary for saving cache
 
     def inner(*args):
-        if args in d:
-            return d[args]
+        if args in cached:
+            return cached[args]
         else:
             m = func(*args)
-            d[args] = m
+            cached[args] = m
             return m
 
     return inner

@@ -1,4 +1,4 @@
-from task03.my_logger.my_precious_log import my_precious_logger
+from homework4.task03.my_logger.my_precious_log import my_precious_logger
 
 
 # # tests for my_logger/my_precious_log for funk my_precious_logger()

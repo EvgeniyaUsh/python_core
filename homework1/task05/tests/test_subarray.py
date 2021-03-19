@@ -1,7 +1,6 @@
 from typing import List
 
 import pytest
-
 from task05.subarray.sumsubarray import find_maximal_subarray_sum
 
 
