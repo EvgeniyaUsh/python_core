@@ -10,7 +10,7 @@ def fizzbuzz(n):
     "Fizz Buzz" if the number is divisible by,
      otherwise the numbers do not change.
 
-     >>> fizzbuzz(5)
+    >>> fizzbuzz(5)
     [1, 2, 'Fizz', 4, 'Buzz']
     >>> fizzbuzz(16)
     [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'Fizz Buzz', 16]
@@ -28,8 +28,6 @@ def fizzbuzz(n):
         raise ValueError
     return list(fb[1:])
 
-
-print(fizzbuzz(16))
 
 if __name__ == "__main__":
     import doctest

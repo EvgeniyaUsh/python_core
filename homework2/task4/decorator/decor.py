@@ -1,3 +1,4 @@
+from functools import lru_cache
 from typing import Callable
 
 
@@ -7,14 +8,9 @@ def cache(func: Callable) -> Callable:
     then it returns a function like this.
     every function call is cached.
     """
-    cached = dict()  # dictionary for saving cache
 
+    @lru_cache
     def inner(*args):
-        if args in cached:
-            return cached[args]
-        else:
-            m = func(*args)
-            cached[args] = m
-            return m
+        return func(*args)
 
     return inner

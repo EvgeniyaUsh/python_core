@@ -15,6 +15,6 @@ def read_magic_number(path: str) -> bool:
         except Exception:
             raise ValueError from None
         else:
-            return True if 0 <= first_line < 3 else False
+            return 0 <= first_line < 3
     else:
         raise ValueError
