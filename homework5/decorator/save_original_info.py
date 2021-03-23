@@ -17,12 +17,22 @@ import functools
 
 
 def print_result(func):
-    # Place for new decorator
+    @my_wraps(func)
     def wrapper(*args, **kwargs):
         """Function-wrapper which print result of an original function"""
         result = func(*args, **kwargs)
         print(result)
         return result
+
+    return wrapper
+
+
+def my_wraps(func):
+    def wrapper(wrap):
+        wrap.__name__ = func.__name__
+        wrap.__doc__ = func.__doc__
+        wrap.__original_func = func
+        return wrap
 
     return wrapper
 
@@ -39,6 +49,7 @@ if __name__ == "__main__":
 
     print(custom_sum.__doc__)
     print(custom_sum.__name__)
+    print(custom_sum.__original_func)
     without_print = custom_sum.__original_func
 
     # the result returns without printing
