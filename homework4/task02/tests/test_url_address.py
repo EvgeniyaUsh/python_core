@@ -30,13 +30,13 @@ def test_takes_a_broken_links_and_raises_value_error(link: str):
 
 def test_count_dots_on_i_59_symbols():
     with patch(
-        "homework4.task02.url.url_address.count_dots_on_i", return_value=59
-    ) as f:
-        assert count_dots_on_i("https://example.com/") == 59
+            "homework4.task02.url.url_address.count_dots_on_i") as f:
+        f.return_value = 59
+        assert homework4.task02.url.url_address.count_dots_on_i("https://example.com/") == 59
 
 
-def test_count_dots_on_i_979_symbols(monkeypatch):
-    monkeypatch.setattr(
-        homework4.task02.url.url_address, "count_dots_on_i", Mock(return_value=979)
-    )
-    assert count_dots_on_i("https://pythontutor.ru/") == 979
+def test_count_dots_on_i_979_symbols():
+    with patch(
+            "homework4.task02.url.url_address.count_dots_on_i") as f:
+        f.return_value = 979
+        assert count_dots_on_i("https://pythontutor.ru/") == 979
