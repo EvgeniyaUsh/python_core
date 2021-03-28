@@ -13,3 +13,5 @@ def count_dots_on_i(url: str) -> int:
     except Exception:
         raise ValueError(f"Unreachable {url}")
     return counter
+
+count_dots_on_i('ssds')
