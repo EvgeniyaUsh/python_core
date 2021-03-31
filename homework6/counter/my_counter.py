@@ -27,9 +27,9 @@ def instances_counter(cls):
         return cls.counter
 
     def reset_instances_counter(cls):
-        to_return = cls.counter
+        save_counter = cls.counter
         cls.counter = 0
-        return to_return
+        return save_counter
 
     cls.__new__ = __new__
     cls.get_created_instances = classmethod(get_created_instances)

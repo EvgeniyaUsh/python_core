@@ -87,7 +87,7 @@ class HomeworkResult:
 
 
 class Teacher(Student):
-    homework_done = defaultdict(set)  # default_factory?
+    homework_done = defaultdict(set)
 
     @staticmethod
     def create_homework(text, days_until_deadline):
@@ -97,10 +97,17 @@ class Teacher(Student):
     def check_homework(homework_result: HomeworkResult):
 
         if len(homework_result.solution) > 5:
-            # Teacher.homework_done[homework_result.homework] = homework_result ???
+            Teacher.homework_done[homework_result.homework] = homework_result
             return True
         else:
             return False
+
+    @staticmethod
+    def reset_results(homework: Homework = None):
+        if homework:
+            del Teacher.homework_done[homework]
+        else:
+            Teacher.homework_done.clear()
 
 
 if __name__ == "__main__":
