@@ -20,11 +20,15 @@ from typing import List
 
 
 def tic_tac_toe_checker(board: List[List]) -> str:
-    list_board = list(chain(*board))
+    list_board = list(chain(*board))  # change to a flat list
     winner = check_diagonal_win(list_board)
     if winner:
         return f"{winner} wins!"
     winner = check_rows_win(board)
+    if winner:
+        return f"{winner} wins!"
+    trans_board = list(map(list, zip(*board)))  # transpose the list of lists
+    winner = check_rows_win(trans_board)
     if winner:
         return f"{winner} wins!"
     elif "-" in board[0] or "-" in board[1] or "-" in board[2]:

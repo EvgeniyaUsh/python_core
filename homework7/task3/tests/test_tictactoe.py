@@ -2,7 +2,11 @@ from typing import List
 
 import pytest
 
-from homework7.task3.tictactoe.tic_tac_toe import tic_tac_toe_checker
+from homework7.task3.tictactoe.tic_tac_toe import (
+    check_diagonal_win,
+    check_rows_win,
+    tic_tac_toe_checker,
+)
 
 game1 = [["-", "-", "o"], ["-", "x", "o"], ["x", "o", "x"]]
 
@@ -53,6 +57,6 @@ def test_tic_tac_toe_checker_when_o_wins(value: List[List], expected_result: str
         (game4, "draw!"),
     ],
 )
-def test_tic_tac_toe_checker_when_o_wins(value: List[List], expected_result: str):
+def test_tic_tac_toe_checker_when_draw(value: List[List], expected_result: str):
     actual_result = tic_tac_toe_checker(value)
     assert actual_result == expected_result
