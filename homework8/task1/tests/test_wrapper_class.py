@@ -5,7 +5,7 @@ from homework8.task1.wrapper_class.wrapper_class import KeyValueStorage
 test_class = KeyValueStorage("text.txt")
 
 
-# test for tic_tac_toe/tic_tac_toe_checker()
+# tests for wrapper_class/KeyValueStorage class
 @pytest.mark.parametrize(
     ["value", "expected_result"],
     [
