@@ -29,34 +29,23 @@ import sqlite3
 
 
 class TableData:
-    def __init__(self, data_base, table_name):
-        self.data_base = data_base
+    def __init__(self, database_name: str, table_name: str):
+        self.database_name = database_name
         self.table_name = table_name
-        self.diction = dict()  # dict for __getitem__
-
-        try:
-            self.con = sqlite3.connect(self.data_base)
-            self.cursor_ = self.con.cursor()
-        except sqlite3.Error:
-            raise sqlite3.OperationalError(f"no such table: {self.table_name}")
 
     def __getitem__(self, item):
-        self.cursor_.execute(f'select * from {self.table_name} where name="{item}"')
-        self.diction[item] = self.cursor_.fetchone()
-
-        if self.diction[item]:
-            return self.diction[item]
-        else:
-            raise IndexError("no suck index")
+        self._cursor.execute(
+            f"SELECT * from {self.table_name} where name=:name", {"name": item}
+        )
+        return self._cursor.fetchone()
 
     def __len__(self):
         """
         To get amount of records in table.
         :return: records in table.
         """
-        self.cursor_.execute(f"select count(*) from {self.table_name}")
-        self.length = self.cursor_.fetchone()
-        return self.length[0]
+        self._cursor.execute(f"select count(*) from {self.table_name}")
+        return self._cursor.fetchone()[0]
 
     def __contains__(self, item):
         """
@@ -64,16 +53,38 @@ class TableData:
         :param item: name
         :return: True or False
         """
-        self.cursor_.execute(
+        self._cursor.execute(
             f"SELECT * from {self.table_name} where name=:name", {"name": item}
         )
-
-        return bool(self.cursor_.fetchone())
+        return bool(self._cursor.fetchone())
 
     def __iter__(self):
         """
         iterator by name
         :return: all names in the table
         """
-        self.cursor_.execute(f"SELECT name FROM {self.table_name}")
-        yield from self.cursor_.fetchall()
+
+        def dict_factory(row):
+            d = {}
+            for idx, col in enumerate(self._cursor.description):
+                d[col[0]] = row[idx]
+            return d
+
+        yield from (
+            dict_factory(row)
+            for row in self._cursor.execute(f"select * from {self.table_name}")
+        )
+
+    def __enter__(self):
+        """
+        connect with our database sqlite3
+        """
+        self._connect = sqlite3.connect(self.database_name)
+        self._cursor = self._connect.cursor()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """
+        close connect our with database sqlite3
+        """
+        return self._connect.close()
