@@ -57,11 +57,13 @@ class Homework:
 
 
 class DeadlineError(Exception):
-    pass
+    def __init__(self, text):
+        self.txt = text
 
 
 class InvalidObject(Exception):
-    pass
+    def __init__(self, text):
+        self.txt = text
 
 
 class Student:
