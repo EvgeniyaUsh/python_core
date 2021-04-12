@@ -2,7 +2,7 @@ import pytest
 
 from homework8.task1.wrapper_class.wrapper_class import KeyValueStorage
 
-test_class = KeyValueStorage("text.txt")
+test_class = KeyValueStorage("file_path.txt")
 
 
 # tests for wrapper_class/KeyValueStorage class

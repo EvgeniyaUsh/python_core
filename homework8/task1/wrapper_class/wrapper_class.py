@@ -22,9 +22,9 @@ File size is expected to be small, you are permitted to read it entirely into me
 
 
 class KeyValueStorage:
-    def __init__(self, text):
-        self.text = text
-        with open(text) as file:
+    def __init__(self, file_path):
+        self.file_path = file_path
+        with open(file_path) as file:
             for i in file:
                 try:
                     if bool(int(i.split("=")[1].rstrip())) == (True or False):
