@@ -1,0 +1,52 @@
+[
+    {
+        "code": "HST",
+        "name": "Host Hotels & Resorts",
+        "p_e": -13.77
+    },
+    {
+        "code": "MRO",
+        "name": "Marathon Oil",
+        "p_e": 3.73
+    },
+    {
+        "code": "F",
+        "name": "Ford Motor",
+        "p_e": 4.52
+    },
+    {
+        "code": "GE",
+        "name": "General Electric",
+        "p_e": 5.48
+    },
+    {
+        "code": "IVZ",
+        "name": "Invesco",
+        "p_e": 6.38
+    },
+    {
+        "code": "UA",
+        "name": "Under Armour",
+        "p_e": 6.38
+    },
+    {
+        "code": "GPS",
+        "name": "Gap",
+        "p_e": 6.54
+    },
+    {
+        "code": "HBAN",
+        "name": "Huntington Bancstocks",
+        "p_e": 6.99
+    },
+    {
+        "code": "UAA",
+        "name": "Under Armour",
+        "p_e": 7.15
+    },
+    {
+        "code": "HBI",
+        "name": "Hanesbrands",
+        "p_e": 7.71
+    }
+]

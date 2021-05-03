@@ -7,7 +7,7 @@ import aiohttp
 from bs4 import BeautifulSoup
 
 
-async def fetch_response(session: aiohttp.ClientSession, url_link: str) -> str:
+async def fetch_response(session: aiohttp.ClientSession, url_link: str):
     async with session.get(url_link) as response:
         return await response.text()
 
@@ -76,7 +76,7 @@ async def get_company_info(
         session: aiohttp.ClientSession,
         company_name_href_growth: List[Dict],
         dollar_value: float,
-) -> Dict:
+):
     company_url = (
             "https://markets.businessinsider.com" + company_name_href_growth["href"]
     )

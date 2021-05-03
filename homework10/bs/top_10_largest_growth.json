@@ -1,0 +1,52 @@
+[
+    {
+        "code": "LB",
+        "name": "L Brands",
+        "growth": 436.85
+    },
+    {
+        "code": "FCX",
+        "name": "Freeport-McMoRan",
+        "growth": 334.12
+    },
+    {
+        "code": "TSLA",
+        "name": "Tesla",
+        "growth": 333.72
+    },
+    {
+        "code": "GPS",
+        "name": "Gap",
+        "growth": 299.88
+    },
+    {
+        "code": "ENPH",
+        "name": "Enphase Energy",
+        "growth": 297.91
+    },
+    {
+        "code": "IVZ",
+        "name": "Invesco",
+        "growth": 210.69
+    },
+    {
+        "code": "MOS",
+        "name": "The Mosaic",
+        "growth": 208.94
+    },
+    {
+        "code": "TPR",
+        "name": "Tapestry",
+        "growth": 194.66
+    },
+    {
+        "code": "ALGN",
+        "name": "Align Technology",
+        "growth": 178.07
+    },
+    {
+        "code": "NWSA",
+        "name": "News",
+        "growth": 170.64
+    }
+]
