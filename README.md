@@ -1,3 +1,3 @@
-**python tasks with tests from epam**
+**python tasks with tests**
 
 Homework repository for python core course in epam
